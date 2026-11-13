@@ -1,0 +1,4 @@
+pywin32>=310; sys_platform == 'win32'
+PyMuPDF>=1.25
+python-pptx>=1.0
+Pillow>=11

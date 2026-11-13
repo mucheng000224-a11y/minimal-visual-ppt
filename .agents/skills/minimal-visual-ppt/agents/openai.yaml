@@ -1,0 +1,6 @@
+interface:
+  display_name: "Minimal Visual PPT"
+  short_description: "Editable editorial slides with real photos and native animation"
+  default_prompt: "Use $minimal-visual-ppt to turn my content into an editable Minimal Editorial PowerPoint with real photography, previews and quality reports."
+policy:
+  allow_implicit_invocation: true

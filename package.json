@@ -1,0 +1,11 @@
+{
+  "name": "minimal-visual-ppt-project",
+  "private": true,
+  "workspaces": [".agents/skills/minimal-visual-ppt"],
+  "scripts": {
+    "deck": "tsx .agents/skills/minimal-visual-ppt/src/cli.ts",
+    "test": "tsx --test .agents/skills/minimal-visual-ppt/tests/*.test.ts",
+    "typecheck": "tsc -p .agents/skills/minimal-visual-ppt/tsconfig.json --noEmit",
+    "test:integration": "tsx .agents/skills/minimal-visual-ppt/tests/integration/run.ts"
+  }
+}
